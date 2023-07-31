@@ -11,7 +11,7 @@ import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
-import dp from "../public/profile.jpg";
+import dp from "../public/profile.png";
 import consulting from "../public/consulting.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
