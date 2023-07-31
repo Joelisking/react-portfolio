@@ -153,12 +153,7 @@ export default function Home() {
 							</h3>
 							<p className="text-lg py-2 leading-8 text-gray-400 text-center">
 								Welcome to my portfolio! I am a passionate individual with a
-								flair for design and problem-solving. Here, you'll find a
-								diverse collection of projects, showcasing my creativity and
-								technical expertise in web development and graphic design. Join
-								me on this visual journey as we explore the exciting realm of
-								innovation and discover how creativity can shape a brighter
-								future. Thank you for visiting! 🌟
+								flair for design and problem-solving.
 							</p>
 						</div>
 
