@@ -62,7 +62,7 @@ export default function Home() {
 								Passionate Developer | Creative Problem Solver | Lifelong
 								Learner
 							</h3>
-							<p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400">
+							<p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto dark:text-gray-400">
 								Looking to breathe life into your digital dreams? As a
 								passionate developer, I offer a symphony of services that blend
 								innovation, efficiency, and elegance.
@@ -70,13 +70,13 @@ export default function Home() {
 						</div>
 
 						<div className="text-5xl flex justify-center gap-16 p-3 text-gray-600 dark:text-gray-400">
-							<AiFillTwitterCircle />
+
 							<AiFillLinkedin />
-							<AiFillYoutube />
+
 						</div>
 
 						<div className=" bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 relative mx-auto overflow-hidden md:w-96 md:h-96">
-							<Image src={deved} alt="dev ed" layout="fill" objectFit="cover" />
+							<Image src={dp} alt="dev ed" layout="fill" objectFit="cover" />
 						</div>
 					</section>
 
