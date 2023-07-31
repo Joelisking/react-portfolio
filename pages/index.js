@@ -58,7 +58,7 @@ export default function Home() {
 							<h2 className="text-5xl py-2 text-teal-600 font-medium">
 								Joel Adu-Kwarteng
 							</h2>
-							<h3 className="text-xl py-2 md:text-xl text-teal-900">
+							<h3 className="text-xl py-2 text-teal-900">
 								Passionate Developer | Creative Problem Solver | Lifelong
 								Learner
 							</h3>
