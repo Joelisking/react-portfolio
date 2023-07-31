@@ -62,7 +62,7 @@ export default function Home() {
 								Passionate Developer | Creative Problem Solver | Lifelong
 								Learner
 							</h3>
-							<p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto dark:text-gray-400">
+							<p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto dark:text-gray-300">
 								Looking to breathe life into your digital dreams? As a
 								passionate developer, I offer a symphony of services that blend
 								innovation, efficiency, and elegance.
@@ -83,7 +83,7 @@ export default function Home() {
 							<h3 className="text-3xl py-4 mt-4 text-center text-teal-600">
 								Services I offer
 							</h3>
-							<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400 max-w-lg mx-auto text-center">
+							<p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-300 max-w-2xl mx-auto text-center">
 								I create beautiful, simplistic, but most importantly, functional
 								websites that meet the needs and functional requirements of the
 								client. I also offer services to help improve existing websites
@@ -91,73 +91,59 @@ export default function Home() {
 							</p>
 						</div>
 
-						<div className="lg:flex gap-10 dark:text-gray-400">
+						<div className="lg:flex gap-10 dark:text-gray-300 text-md">
 							<div className="text-center shadow-lg p-10 rounded-xl my-10">
 								<div className="w-20 h-20 mt-20 relative mx-auto">
 									<Image src={design} alt="dev ed" />
 								</div>
-								<h3 className="text-lg font-medium pt-8 pb-2">
+								<h3 className="text-xl font-medium pt-8 pb-2 text-teal-600">
 									Beautiful Designs
 								</h3>
 								<p className="py-2">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Magni, aut eum! Unde odit pariatur facere rem? Deserunt saepe
-									natus ipsum.
+									I craft visually stunning websites that captivate visitors
+									from the first glance.
 								</p>
-								<h4 className="text-teal-600 py-4">Design tools I use</h4>
-								<p className="text-gray-800 py-1 dark:text-gray-700">
-									Photoshop
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-700">
-									Illustrator
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-700">Figma</p>
+								
 							</div>
 
 							<div className="text-center shadow-lg p-10 rounded-xl my-10">
 								<div className="w-20 h-20 mt-20 relative mx-auto">
 									<Image src={code} alt="dev ed" />
 								</div>
-								<h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">
-									Beautiful Designs
+								<h3 className="text-xl font-medium pt-8 pb-2 text-teal-600">
+									Efficient Coding
 								</h3>
 								<p className="py-2">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Magni, aut eum! Unde odit pariatur facere rem? Deserunt saepe
-									natus ipsum.
+									I pride myself on writing clean, optimized, and scalable code
+									that powers high-performance websites.
 								</p>
-								<h4 className="text-teal-600 py-4">Design tools I use</h4>
-								<p className="text-gray-800 py-1 dark:text-gray-700">
-									Photoshop
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-700">
-									Illustrator
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-700">Figma</p>
+								
 							</div>
 
 							<div className="text-center shadow-lg p-10 rounded-xl my-10">
 								<div className="w-20 h-20 mt-20 relative mx-auto">
 									<Image src={consulting} alt="dev ed" />
 								</div>
-								<h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">
-									Beautiful Designs
+								<h3 className="text-xl font-medium pt-8 pb-2 text-teal-600">
+									Seamless User Experience
 								</h3>
 								<p className="py-2">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Magni, aut eum! Unde odit pariatur facere rem? Deserunt saepe
-									natus ipsum.
+									I create effortless journeys, smooth interactions, and
+									intuitive navigation.
 								</p>
-								<h4 className="text-teal-600 py-4">Design tools I use</h4>
-								<p className="text-gray-800 py-1  dark:text-gray-700">
-									Photoshop
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-700">
-									Illustrator
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-700">Figma</p>
 							</div>
 						</div>
+
+            <div className='text-center'>
+                <h4 className="text-teal-600 py-4 text-3xl">Tools I use</h4>
+								<p className="text-gray-800 py-1 dark:text-gray-300 text-xl">Figma</p>
+								<p className="text-gray-800 py-1 dark:text-gray-300 text-xl">
+									Photoshop
+								</p>
+								<p className="text-gray-800 py-1 dark:text-gray-300 text-xl">
+									Illustrator
+								</p>
+              </div>
 
 						<div>
 							<h3 className="text-3xl py-4 mt-4 text-center text-gray-400">
