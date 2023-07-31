@@ -36,9 +36,11 @@ export default function Home() {
 				<main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
 					<section className="min-h-screen">
 						<nav className="py-10 mb-12 flex justify-between">
-							<h1 className="text-xl font-burtons dark:text-white">
-								joelak
-							</h1>
+							<a href="#">
+								<h1 className="text-xl font-burtons dark:text-white">
+									joelak
+								</h1>
+							</a>
 							<ul className="flex items-center">
 								<li>
 									<BsFillMoonStarsFill
@@ -76,9 +78,11 @@ export default function Home() {
 							</p>
 						</div>
 
-						<div className="text-5xl flex justify-center gap-16 p-3 text-gray-600 dark:text-gray-400">
-							<AiFillLinkedin />
-						</div>
+						<a href="https://www.linkedin.com/in/joel-adu-kwarteng-919048208/" target='__blank'>
+							<div className="text-5xl flex justify-center gap-16 p-3 text-gray-600 dark:text-gray-400">
+								<AiFillLinkedin className="text-white" />
+							</div>
+						</a>
 
 						<div className=" bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 relative mx-auto overflow-hidden md:w-96 md:h-96">
 							<Image
@@ -204,7 +208,7 @@ export default function Home() {
 
 						<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 							<div className="basis-1/3 flex-1">
-								<a href="https://whatsapp-v2-ochre.vercel.app">
+								<a href="https://whatsapp-v2-ochre.vercel.app" target='__blank'>
 									<Image
 										src={hibye}
 										className="rounded-xl"
@@ -215,7 +219,7 @@ export default function Home() {
 							</div>
 
 							<div className="basis-1/3 flex-1">
-								<a href="https://linkedin-d57df.web.app">
+								<a href="https://linkedin-d57df.web.app" target='__blank'>
 									<Image
 										src={tapin}
 										className="rounded-xl"
@@ -226,7 +230,7 @@ export default function Home() {
 							</div>
 
 							<div className="basis-1/2 flex-1">
-								<a href="https://github.com/Joelisking/modern-bank-app">
+								<a href="https://github.com/Joelisking/modern-bank-app" target='__blank'>
 									<Image
 										src={bank}
 										className="rounded-xl"
