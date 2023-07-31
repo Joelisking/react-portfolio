@@ -1,24 +1,18 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
-import {
-	AiFillTwitterCircle,
-	AiFillLinkedin,
-	AiFillYoutube,
-} from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
 import Image from 'next/image'
-import deved from '../public/dev-ed-wave.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import dp from '../public/profile.png'
 import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
+import hibye from '../public/hibye.png'
+import tapin from '../public/tapin.png'
+import bank from '../public/bank-app.png'
+import figma from '../public/figma-logo.png'
+import photoshop from '../public/Photoshop.png'
+import illustrator from '../public/Illustrator.png'
+import vscode from '../public/vscode.png'
 import { useState } from 'react'
 
 export default function Home() {
@@ -41,7 +35,7 @@ export default function Home() {
 								<li>
 									<BsFillMoonStarsFill
 										onClick={() => setDarkMode(!darkMode)}
-										className=" cursor-pointer text-2xl"
+										className=" cursor-pointer text-2xl text-white"
 									/>
 								</li>
 								<li>
@@ -96,120 +90,110 @@ export default function Home() {
 								<div className="w-20 h-20 mt-20 relative mx-auto">
 									<Image src={design} alt="dev ed" />
 								</div>
-								<h3 className="text-xl font-medium pt-8 pb-2 text-teal-600">
+								<h3 className="text-2xl pt-8 pb-2 text-teal-600">
 									Beautiful Designs
 								</h3>
-								<p className="py-2">
+								<p className="py-2 text-lg">
 									I craft visually stunning websites that captivate visitors
 									from the first glance.
 								</p>
-								
 							</div>
 
 							<div className="text-center shadow-lg p-10 rounded-xl my-10">
 								<div className="w-20 h-20 mt-20 relative mx-auto">
 									<Image src={code} alt="dev ed" />
 								</div>
-								<h3 className="text-xl font-medium pt-8 pb-2 text-teal-600">
+								<h3 className="text-2xl pt-8 pb-2 text-teal-600">
 									Efficient Coding
 								</h3>
-								<p className="py-2">
-									I pride myself on writing clean, optimized, and scalable code
-									that powers high-performance websites.
+								<p className="py-2 text-lg">
+									I pride myself on writing clean, optimized code that powers
+									high-performance websites.
 								</p>
-								
 							</div>
 
 							<div className="text-center shadow-lg p-10 rounded-xl my-10">
 								<div className="w-20 h-20 mt-20 relative mx-auto">
 									<Image src={consulting} alt="dev ed" />
 								</div>
-								<h3 className="text-xl font-medium pt-8 pb-2 text-teal-600">
-									Seamless User Experience
+								<h3 className="text-2xl pt-8 pb-2 text-teal-600">
+									User Experience
 								</h3>
-								<p className="py-2">
+								<p className="py-2 text-lg">
 									I create effortless journeys, smooth interactions, and
 									intuitive navigation.
 								</p>
 							</div>
 						</div>
 
-            <div className='text-center'>
-                <h4 className="text-teal-600 py-4 text-3xl">Tools I use</h4>
-								<p className="text-gray-800 py-1 dark:text-gray-300 text-xl">Figma</p>
-								<p className="text-gray-800 py-1 dark:text-gray-300 text-xl">
-									Photoshop
-								</p>
-								<p className="text-gray-800 py-1 dark:text-gray-300 text-xl">
-									Illustrator
-								</p>
-              </div>
+						<div className="text-center">
+							<h4 className="text-teal-600 py-4 text-3xl">Tools I use</h4>
+							<div className="flex flex-col md:flex-row ">
+								<div className="mx-auto relative my-10">
+									<Image src={figma} height={80} color="gray" />
+								</div>
+
+								<div className="mx-auto relative my-10">
+									<Image src={photoshop} height={80} color="gray" />
+								</div>
+
+								<div className="mx-auto relativ my-10">
+									<Image src={illustrator} height={80} color="gray" />
+								</div>
+
+								<div className="mx-auto relative my-10">
+									<Image src={vscode} height={80} color="gray" />
+								</div>
+							</div>
+						</div>
 
 						<div>
-							<h3 className="text-3xl py-4 mt-4 text-center text-gray-400">
+							<h3 className="text-3xl py-4 mt-20 text-center text-teal-600">
 								Portfolio
 							</h3>
-							<p className="text-md py-2 leading-8 text-gray-400">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-								perspiciatis dolorem minima quis ipsam molestias aut distinctio
-								provident possimus? Saepe repellat vitae numquam mollitia sequi
-								veritatis facilis dolore s uscipit reprehenderit!
+							<p className="text-lg py-2 leading-8 text-gray-400 text-center">
+								Welcome to my portfolio! I am a passionate individual with a
+								flair for design and problem-solving. Here, you'll find a
+								diverse collection of projects, showcasing my creativity and
+								technical expertise in web development and graphic design. Join
+								me on this visual journey as we explore the exciting realm of
+								innovation and discover how creativity can shape a brighter
+								future. Thank you for visiting! 🌟
 							</p>
 						</div>
 
 						<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 							<div className="basis-1/3 flex-1">
-								<Image
-									src={web1}
-									className="rounded-xl"
-									width={'100%'}
-									height={'100%'}
-								/>
-							</div>
-
-							<div className="basis-1/2 flex-1">
-								<Image
-									src={web2}
-									className="rounded-xl"
-									width={'100%'}
-									height={'100%'}
-								/>
-							</div>
-
-							<div className="basis-1/2 flex-1">
-								<Image
-									src={web3}
-									className="rounded-xl"
-									width={'100%'}
-									height={'100%'}
-								/>
+								<a href="https://whatsapp-v2-ochre.vercel.app">
+									<Image
+										src={hibye}
+										className="rounded-xl"
+										width={'100%'}
+										height={'100%'}
+									/>
+								</a>
 							</div>
 
 							<div className="basis-1/3 flex-1">
-								<Image
-									src={web4}
-									className="rounded-xl"
-									width={'100%'}
-									height={'100%'}
-								/>
-							</div>
-
-							<div className="basis-1/3 flex-1">
-								<Image
-									src={web5}
-									className="rounded-xl"
-									width={'100%'}
-									height={'100%'}
-								/>
+								<a href="https://linkedin-d57df.web.app">
+									<Image
+										src={tapin}
+										className="rounded-xl"
+										width={'100%'}
+										height={'100%'}
+									/>
+								</a>
 							</div>
 
 							<div className="basis-1/2 flex-1">
-								<Image
-									src={web6}
-									className="rounded-xl"
-									width={'100%'}
-									height={'100%'}
-								/>
+								<a href="https://github.com/Joelisking/modern-bank-app">
+									<Image
+										src={bank}
+										className="rounded-xl"
+										width={'100%'}
+										height={'100%'}
+									/>
+								</a>
 							</div>
 						</div>
 					</section>
