@@ -70,9 +70,7 @@ export default function Home() {
 						</div>
 
 						<div className="text-5xl flex justify-center gap-16 p-3 text-gray-600 dark:text-gray-400">
-
 							<AiFillLinkedin />
-
 						</div>
 
 						<div className=" bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 relative mx-auto overflow-hidden md:w-96 md:h-96">
@@ -82,14 +80,14 @@ export default function Home() {
 
 					<section>
 						<div>
-							<h3 className="text-3xl py-4 mt-4 text-center dark:text-gray-400">
+							<h3 className="text-3xl py-4 mt-4 text-center text-teal-600">
 								Services I offer
 							</h3>
 							<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400 max-w-lg mx-auto text-center">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-								perspiciatis dolorem minima quis ipsam molestias aut distinctio
-								provident possimus? Saepe repellat vitae numquam mollitia sequi
-								veritatis facilis dolore s uscipit reprehenderit!
+								I create beautiful, simplistic, but most importantly, functional
+								websites that meet the needs and functional requirements of the
+								client. I also offer services to help improve existing websites
+								and other digital platforms.
 							</p>
 						</div>
 
