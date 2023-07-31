@@ -4,10 +4,10 @@ import {
 	AiFillLinkedin,
 } from 'react-icons/ai'
 import Image from 'next/image'
-import tapin from '../public/tapin.png'
-import hibye from '../public/hibye.png'
 import dp from '../public/profile.png'
-import bank from '../public/bank-app.png'
+import web1 from '../public/web1.png'
+import web2 from '../public/web2.png'
+import web3 from '../public/web3.png'
 import { useState } from 'react'
 
 export default function Home() {
@@ -107,7 +107,7 @@ export default function Home() {
 							<div className="basis-1/3 flex-1">
 								<a href="https://whatsapp-v2-ochre.vercel.app">
 									<Image
-										src={hibye}
+										src={web1}
 										className="rounded-xl"
 										width={'100%'}
 										height={'100%'}
@@ -118,7 +118,7 @@ export default function Home() {
 							<div className="basis-1/3 flex-1">
 								<a href="https://linkedin-d57df.web.app">
 									<Image
-										src={tapin}
+										src={web2}
 										className="rounded-xl"
 										width={'100%'}
 										height={'100%'}
@@ -129,7 +129,7 @@ export default function Home() {
 							<div className="basis-1/2 flex-1">
 								<a href="https://github.com/Joelisking/modern-bank-app">
 									<Image
-										src={bank}
+										src={web3}
 										className="rounded-xl"
 										width={'100%'}
 										height={'100%'}
