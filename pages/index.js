@@ -3,14 +3,13 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import {
-	AiFillTwitterCircle,
 	AiFillLinkedin,
-	AiFillYoutube,
 } from 'react-icons/ai'
 import Image from 'next/image'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import dp from '../public/profile.png'
+import deved from '../public/dev-ed-wave.png'
 import consulting from '../public/consulting.png'
 import web1 from '../public/web1.png'
 import web2 from '../public/web2.png'
@@ -78,7 +77,7 @@ export default function Home() {
 						</div>
 
 						<div className=" bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 relative mx-auto overflow-hidden md:w-96 md:h-96">
-							<Image src={dp} alt="dev ed" layout="fill" objectFit="cover" />
+							<Image src={deved} alt="dev ed" layout="fill" objectFit="cover" />
 						</div>
 					</section>
 
