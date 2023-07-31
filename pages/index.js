@@ -58,14 +58,17 @@ export default function Home() {
 							<h2 className="text-5xl py-2 text-teal-600 font-medium">
 								Joel Adu-Kwarteng
 							</h2>
-							<h3 className="text-2xl py-2 md:text-3xl text-teal-900">
+							<h3 className="text-xl py-2 md:text-xl text-teal-900">
 								Passionate Developer | Creative Problem Solver | Lifelong
 								Learner
 							</h3>
-							<p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-								voluptate totam natus quo aspernatur aperiam tempore ducimus
-								maiores praesentium odit.
+							<p className="text-md py-5 leading-8 text-gray-800 md:text-lg max-w-2xl mx-auto dark:text-gray-400">
+								Looking to breathe life into your digital dreams? As a
+								passionate developer, I offer a symphony of services that blend
+								innovation, efficiency, and elegance. From crafting captivating
+								websites to building cutting-edge applications, let's embark on
+								a coding adventure together and turn your ideas into
+								awe-inspiring realities!
 							</p>
 						</div>
 
