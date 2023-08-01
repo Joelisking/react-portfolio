@@ -242,6 +242,9 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
+					</section>
+
+					<section className="pb-20">
 						<div>
 							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
 								LET'S MAKE YOUR DREAMS COME ALIVE
@@ -250,22 +253,25 @@ export default function Home() {
 								It's now or never
 							</h3>
 							<div className="flex flex-col items-center justify-center mb-11">
-								<a href="#" target="__blank">
+								{/* <a
+									href="#"
+									target="__blank">
 									<button class=" my-4 inline-flex p-0.5 text-3xl text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-teal-600 group-hover:from-teal-300 group-hover:to-teal-600 dark:text-white dark:hover:text-gray-900 focus:outline-none">
 										<span class="relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
 											Contact Me
 										</span>
 									</button>
-								</a>
+								</a> */}
 								<div className=" mt-7">
 									{/* <div className="relative box w-[200px] h-[200px] mt-10 text-center overflow-hidden"></div> */}
-									<Image src={qrcode} width={350} />
+									<Image
+										src={qrcode}
+										width={350}
+									/>
 								</div>
 							</div>
 						</div>
 					</section>
-
-
 				</main>
 				{/* <footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
