@@ -263,7 +263,11 @@ export default function Home() {
 									</button>
 								</a>
 								<div className="relative box w-[200px] h-[200px] mt-10 text-center overflow-hidden"></div>
-								<Image src={qrcode} width={350} className=' mt-7'/>
+								<Image
+									src={qrcode}
+									width={350}
+									className=" mt-7"
+								/>
 							</div>
 						</div>
 					</section>
@@ -271,11 +275,11 @@ export default function Home() {
 				<footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
 						<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-							© 2023{' '}
+							2023{' '}
 							<a
 								href="https://flowbite.com/"
 								class="hover:underline">
-								Joel Adu-Kwarteng™
+								Joel Adu-Kwarteng
 							</a>
 							. All Rights Reserved.
 						</span>
