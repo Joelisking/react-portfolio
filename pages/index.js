@@ -243,10 +243,10 @@ export default function Home() {
 							</div>
 						</div>
 						<div>
-							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
-								LET'S MAKE YOUR DREAMS COME ALIVE
+							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium">
+								oh why
 							</h3>
-							<h3 className="text-3xl pb-8 text-center text-black font-medium font-architect dark:text-white">
+							<h3 className="text-3xl pb-8 text-center text-black font-medium dark:text-white">
 								It's now or never
 							</h3>
 						</div>
