@@ -254,7 +254,7 @@ export default function Home() {
 							</h3>
 							<div className="flex flex-col items-center justify-center mb-11">
 								<a
-									href="mailto:joeladukwarteng@gmail.com"
+									href="#"
 									target="__blank">
 									<button class=" my-4 inline-flex p-0.5 text-3xl text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-teal-600 group-hover:from-teal-300 group-hover:to-teal-600 dark:text-white dark:hover:text-gray-900 focus:outline-none">
 										<span class="relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -263,7 +263,7 @@ export default function Home() {
 									</button>
 								</a>
 								<div className=" mt-7">
-									<div className="relative box w-[200px] h-[200px] mt-10 text-center overflow-hidden"></div>
+									{/* <div className="relative box w-[200px] h-[200px] mt-10 text-center overflow-hidden"></div> */}
 									<Image
 										src={qrcode}
 										width={350}
