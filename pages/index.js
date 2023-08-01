@@ -246,7 +246,7 @@ export default function Home() {
 
 					<section className="pb-20">
 						<div>
-							<h3 className="text-5xl py-2 mt-20 text-center text-teal-600 font-medium font-architect">
+							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
 								LET'S MAKE YOUR DREAMS COME ALIVE
 							</h3>
 							<h3 className="text-3xl pb-8 text-center text-black font-medium font-architect dark:text-white">
@@ -256,7 +256,7 @@ export default function Home() {
 								<a
 									href="mailto:joeladukwarteng@gmail.com"
 									target="__blank">
-									<button class="inline-flex p-0.5 text-3xl text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-teal-600 group-hover:from-teal-300 group-hover:to-teal-600 dark:text-white dark:hover:text-gray-900 focus:outline-none">
+									<button class=" my-4 inline-flex p-0.5 text-3xl text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-teal-600 group-hover:from-teal-300 group-hover:to-teal-600 dark:text-white dark:hover:text-gray-900 focus:outline-none">
 										<span class="relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
 											Contact Me
 										</span>
