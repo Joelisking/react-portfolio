@@ -246,7 +246,7 @@ export default function Home() {
 
 					<section className="pb-20">
 						<div>
-							<h2>Let's work together</h2>
+							<h2>Let u`&apos;`s work together</h2>
 						</div>
 					</section>
 					{/* <section className="pb-20">
