@@ -7,23 +7,22 @@
 	src: url('../public/Burtons.otf');
 }
 @font-face {
-  font-family: 'architect';
-  src: url('../public/ArchitectsDaughter.ttf');
+	font-family: 'architect';
+	src: url('../public/ArchitectsDaughter.ttf');
 }
 @font-face {
-  font-family: 'poppins';
-  src: url('../public/Poppins.ttf');
+	font-family: 'poppins';
+	src: url('../public/Poppins.ttf');
 }
 
 @layer utilities {
 	.box::before {
-		@apply content-[''] absolute bg-[conic-gradient(#00897b_20deg,transparent_120deg)] dark:bg-[conic-gradient(white_120deg,transparent_120deg)] w-[300px] h-[300px] top-[-25%] left-[-25%] dark:rounded-xl animate-spin ;
+		@apply content-[''] absolute bg-[conic-gradient(#00897b_20deg,transparent_120deg)] dark:bg-[conic-gradient(white_120deg,transparent_120deg)] w-[300px] h-[300px] top-[-25%] left-[-25%] dark:rounded-xl animate-spin;
 	}
 	.box::after {
 		@apply content-['Scan_this_QR_Code_to_send_me_a_message_on_WhatsApp_or_click_the_icon_below'] text-white font-poppins text-lg w-[94%] h-[94%] bg-[#1a202c] dark:bg-teal-600 absolute top-[3%] left-[3%] flex justify-center  items-center uppercase tracking-[2px] font-medium;
 	}
-  
 }
 
 /* 00897b */
-/* 04b0ee */      
+/* 04b0ee */
