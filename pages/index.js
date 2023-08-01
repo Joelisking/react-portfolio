@@ -273,7 +273,7 @@ export default function Home() {
 						</div>
 					</section> */}
 				</main>
-				{/* <footer class="bg-white dark:bg-gray-800 ">
+				<footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
 						<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
 							2023{' '}
@@ -314,7 +314,7 @@ export default function Home() {
 							</li>
 						</ul>
 					</div>
-				</footer> */}
+				</footer>
 			</div>
 		</>
 	)
