@@ -242,12 +242,6 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-						<div>
-							<h2 className="text-5xl">oh why</h2>
-							<h3 className="text-3xl">
-								It's now or never
-							</h3>
-						</div>
 					</section>
 
 					{/* <section className="pb-20">
