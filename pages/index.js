@@ -242,9 +242,6 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-					</section>
-
-					<section className="pb-20">
 						<div>
 							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
 								LET'S MAKE YOUR DREAMS COME ALIVE
@@ -252,7 +249,18 @@ export default function Home() {
 							<h3 className="text-3xl pb-8 text-center text-black font-medium font-architect dark:text-white">
 								It's now or never
 							</h3>
-							{/* <div className="flex flex-col items-center justify-center mb-11">
+						</div>
+					</section>
+
+					{/* <section className="pb-20">
+						<div>
+							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
+								LET'S MAKE YOUR DREAMS COME ALIVE
+							</h3>
+							<h3 className="text-3xl pb-8 text-center text-black font-medium font-architect dark:text-white">
+								It's now or never
+							</h3>
+							<div className="flex flex-col items-center justify-center mb-11">
 								<a
 									href="#"
 									target="__blank">
@@ -269,9 +277,9 @@ export default function Home() {
 										width={350}
 									/>
 								</div>
-							</div> */}
+							</div> 
 						</div>
-					</section>
+					</section>*/}
 				</main>
 				<footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
@@ -282,7 +290,6 @@ export default function Home() {
 								class="hover:underline">
 								Joel Adu-Kwarteng
 							</a>
-							
 						</span>
 						<ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 text-center">
 							<li>
