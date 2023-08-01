@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: 'poppins';
-  src: url('//public/Poppins.ttf');
+  src: url('../public/Poppins.ttf');
 }
 
 @layer utilities {
