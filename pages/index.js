@@ -301,15 +301,6 @@ export default function Home() {
 									</div>
 								</a>
 							</li>
-							<li>
-								<a
-									href="https://www.linkedin.com/in/joel-adu-kwarteng-919048208/"
-									target="__blank">
-									<div className="text-5xl flex justify-center gap-16 p-3 text-gray-600 dark:text-gray-400">
-										<AiOutlineInstagram />
-									</div>
-								</a>
-							</li>
 						</ul>
 					</div>
 				</footer>
