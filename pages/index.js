@@ -204,6 +204,17 @@ export default function Home() {
 							</p>
 						</div>
 
+						<div>
+							<h3 className="text-3xl py-4 mt-20 text-center text-teal-600">
+								Let's Work Together
+							</h3>
+							<p className="text-lg py-2 leading-8 text-gray-400 text-center">
+								Welcome to my portfolio! I am a
+								passionate individual with a flair for
+								design and problem-solving.
+							</p>
+						</div>
+
 						<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 							<div className="basis-1/3 flex-1 shadow-xl drop-shadow-lg rounded-xl">
 								<a
