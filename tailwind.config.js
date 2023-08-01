@@ -7,16 +7,16 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			keyframes: {
-				spin: {
-					'100%': {
-						transform: 'rotate(- 360deg)',
-					},
-				},
-			},
-			animation: {
-				spin: 'spin 3s linear infinite',
-			},
+			// keyframes: {
+			// 	spin: {
+			// 		'100%': {
+			// 			transform: 'rotate(- 360deg)',
+			// 		},
+			// 	},
+			// },
+			// animation: {
+			// 	spin: 'spin 3s linear infinite',
+			// },
 			fontFamily: {
 				burtons: 'burtons',
         architect: 'architect',
