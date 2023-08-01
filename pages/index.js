@@ -243,19 +243,13 @@ export default function Home() {
 							</div>
 						</div>
 					</section>
-
 					<section className="pb-20">
 						<div>
-							<h2>Let u`&apos;`s work together</h2>
-						</div>
-					</section>
-					{/* <section className="pb-20">
-						<div>
 							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
-								LET'S MAKE YOUR DREAMS COME ALIVE
+								LET&apos;S MAKE YOUR DREAMS COME ALIVE
 							</h3>
 							<h3 className="text-3xl pb-8 text-center text-black font-medium font-architect dark:text-white">
-								It's now or never
+								It&apos;s now or never
 							</h3>
 							<div className="flex flex-col items-center justify-center mb-11">
 								<a
@@ -276,7 +270,7 @@ export default function Home() {
 								</div>
 							</div> 
 						</div>
-					</section>*/}
+					</section>
 				</main>
 				<footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
