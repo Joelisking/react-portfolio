@@ -244,7 +244,7 @@ export default function Home() {
 						</div>
 					</section>
 
-					<section className="pb-20">
+					{/* <section className="pb-20">
 						<div>
 							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium font-architect">
 								LET'S MAKE YOUR DREAMS COME ALIVE
@@ -270,7 +270,7 @@ export default function Home() {
 								/>
 							</div>
 						</div>
-					</section>
+					</section> */}
 				</main>
 				{/* <footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
