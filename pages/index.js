@@ -242,11 +242,11 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-						<div>
-							<h3 className="text-5xl py-2 mt-10 text-center text-teal-600 font-medium">
+						<div className='py-2 mt-10 pb-8 text-center'>
+							<h2 className="text-5xl text-teal-600 font-medium">
 								oh why
-							</h3>
-							<h3 className="text-3xl pb-8 text-center text-black font-medium dark:text-white">
+							</h2>
+							<h3 className="text-3xl text-black font-medium dark:text-white">
 								It's now or never
 							</h3>
 						</div>
