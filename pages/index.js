@@ -244,9 +244,9 @@ export default function Home() {
 						</div>
 					</section>
 
-					<section className="bg-gray-100 dark:bg-gray-900">
+					<section className="pb-20">
 						<div>
-							<h2>hi</h2>
+							<h2>Let's make your dreams come true</h2>
 						</div>
 					</section>
 					{/* <section className="pb-20">
