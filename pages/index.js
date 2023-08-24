@@ -248,7 +248,7 @@ export default function Home() {
 
 							<div className="basis-1/3 flex-1 shadow-xl drop-shadow-lg">
 								<a
-									href="https://modernbankui.vercel.app/"
+									href="#"
 									target="__blank">
 									<Image
 										src={headphones}
