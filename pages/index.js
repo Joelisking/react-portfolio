@@ -249,7 +249,7 @@ export default function Home() {
 							<div className="basis-1/3 flex-1 shadow-xl drop-shadow-lg">
 								<a
 									href="#"
-									target="__blank">
+									>
 									<Image
 										src={headphones}
 										className="rounded-xl"
