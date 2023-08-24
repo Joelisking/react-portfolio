@@ -18,6 +18,7 @@ import photoshop from '../public/Photoshop.png'
 import illustrator from '../public/Illustrator.png'
 import vscode from '../public/vscode.png'
 import qrcode from '../public/qr.jpeg'
+import headphones from '../public/headphones.png'
 import { useState } from 'react'
 
 export default function Home() {
@@ -205,6 +206,7 @@ export default function Home() {
 						</div>
 
 						<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
 							<div className="basis-1/3 flex-1 shadow-xl drop-shadow-lg rounded-xl">
 								<a
 									href="https://whatsapp-v2-ochre.vercel.app"
@@ -230,14 +232,29 @@ export default function Home() {
 									/>
 								</a>
 							</div>
-							<div className="basis-1/2 text-center shadow-xl drop-shadow-lg">
+
+							<div className="basis-1/3 flex-1 shadow-xl drop-shadow-lg">
 								<a
-									href="https://github.com/Joelisking/modern-bank-app"
+									href="https://modernbankui.vercel.app/"
 									target="__blank">
 									<Image
 										src={bank}
 										className="rounded-xl"
-										width={800}
+										width={'100%'}
+										height={'100%'}
+									/>
+								</a>
+							</div>
+
+							<div className="basis-1/3 flex-1 shadow-xl drop-shadow-lg">
+								<a
+									href="https://modernbankui.vercel.app/"
+									target="__blank">
+									<Image
+										src={headphones}
+										className="rounded-xl"
+										width={'100%'}
+										height={'100%'}
 									/>
 								</a>
 							</div>
@@ -252,9 +269,7 @@ export default function Home() {
 								It&apos;s now or never
 							</h3>
 							<div className="flex flex-col items-center justify-center mb-11">
-								<a
-									href="#"
-									target="__blank">
+								<a href="#" target="__blank">
 									<button class=" my-4 inline-flex p-0.5 text-3xl text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-teal-600 group-hover:from-teal-300 group-hover:to-teal-600 dark:text-white dark:hover:text-gray-900 focus:outline-none">
 										<span class="relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
 											Let&apos;s Talk
@@ -263,24 +278,16 @@ export default function Home() {
 								</a>
 								<div className=" mt-7">
 									<div className="relative box w-[200px] h-[200px] mt-2 mb-4 text-center overflow-hidden mx-auto"></div>
-									<Image
-										src={qrcode}
-										width={350}
-									/>
+									<Image src={qrcode} width={350} />
 								</div>
-							</div> 
+							</div>
 						</div>
 					</section>
 				</main>
 				<footer class="bg-white dark:bg-gray-800 ">
 					<div class="p-4 md:flex md:items-center md:justify-between">
 						<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-							2023{' '}
-							<a
-								href="https://flowbite.com/"
-								class="hover:underline">
-								Joel Adu-Kwarteng
-							</a>
+							2023 <a>Joel Adu-Kwarteng</a>
 						</span>
 						<ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 text-center">
 							<li>
